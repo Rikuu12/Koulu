@@ -1,0 +1,4 @@
+﻿Build started...
+1>------ Build started: Project: tehtävä3, Configuration: Debug Any CPU ------
+1>tehtävä3 -> C:\Users\KKTI21COhjelmoija\source\repos\tehtävä3\tehtävä3\bin\Debug\net5.0\tehtävä3.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
