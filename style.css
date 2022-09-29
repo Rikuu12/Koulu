@@ -24,16 +24,32 @@
     }
   }
   .profile {
-    background-image: url(kuva1.jpg);
-    background-color: #329ABD;
+    font-size: 25px;
+    margin-right: 25px;
+    padding: 100px 0px;
+    background-color: #112026;
     height: 100%;
+    width: 100%;
+    color: white;
     text-align: center;
   }
-  .cv {background-color: #0B5F7C;
+  .cv {
+    font-size: 25px;
+    margin: auto;
+    padding:90px 0px;
+    background-color: #0B5F7C;
     height: 100%;
+    width: 100%;
     text-align: center;
+    color: white;
   }
-  .contact {background-color: #007DA9;
+  .contact {
+    font-size: 25px;
+   margin:auto;
+    padding: 90px 0px;
+    background-color: #007DA9;
     height: 100%;
+    width: 100%;
     text-align: center;
+    color: white;
   }
