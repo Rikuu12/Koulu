@@ -1,26 +1,39 @@
 
-div.navi
- {
-    font-size: 23px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
+.navi {
+    background-color: #0C4A5F;
+    overflow: auto;
     text-align: center;
+}
+.navi a {
+    font-size: 25px;
+    padding: 14px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+.navi a:hover {
+    background-color: 001D27;
+}
+.active {
+    background-color:  #127EA3;
+}
+@media screen and (max-width: 500px) {
+    .navi a {
+      float: none;
+      display: block;
     }
-div.navi:hover
-    {
-    background-color: #00aba9;
-    color: red;
-    }
-    #signIn
-    {
-    width: 5%;
-    margin: 10px;
-    font-size: 23px;
-    background-color: green;
-    border-right: 2px solid;
+  }
+  .profile {
+    background-image: url(kuva1.jpg);
+    background-color: #329ABD;
+    height: 100%;
     text-align: center;
-    clear: both;
-
-    }
+  }
+  .cv {background-color: #0B5F7C;
+    height: 100%;
+    text-align: center;
+  }
+  .contact {background-color: #007DA9;
+    height: 100%;
+    text-align: center;
+  }
